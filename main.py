@@ -24,4 +24,5 @@ else:
     radius = durchmesser / 2
     flächedeskreises = math.pi * radius**2
     print(f"die fläche des kreises ist{flächedeskreises}")
+print("test")
 
