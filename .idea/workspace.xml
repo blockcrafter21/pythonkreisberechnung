@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dac3ac76-bc28-4218-a1b1-6fdba71e0f63" name="Default Changelist" comment="hi testes">
+    <list default="true" id="dac3ac76-bc28-4218-a1b1-6fdba71e0f63" name="Default Changelist" comment="test">
       <changelist_data name="hah" email="" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +12,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="blockcrager_2-1" />
         <option value="hah" />
       </list>
     </option>
@@ -37,6 +38,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="2539" height="424" key="GridCell.Tab.0.bottom" timestamp="1607713492684">
+      <screen x="1280" y="-571" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="424" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.-571.2560.1440@1280.-571.2560.1440" timestamp="1607713492684" />
+    <state width="2539" height="424" key="GridCell.Tab.0.center" timestamp="1607713492683">
+      <screen x="1280" y="-571" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="424" key="GridCell.Tab.0.center/0.23.1280.777/1280.-571.2560.1440@1280.-571.2560.1440" timestamp="1607713492683" />
+    <state width="2539" height="424" key="GridCell.Tab.0.left" timestamp="1607713492682">
+      <screen x="1280" y="-571" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="424" key="GridCell.Tab.0.left/0.23.1280.777/1280.-571.2560.1440@1280.-571.2560.1440" timestamp="1607713492682" />
+    <state width="2539" height="424" key="GridCell.Tab.0.right" timestamp="1607713492684">
+      <screen x="1280" y="-571" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="424" key="GridCell.Tab.0.right/0.23.1280.777/1280.-571.2560.1440@1280.-571.2560.1440" timestamp="1607713492684" />
     <state x="2358" y="70" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607705325207">
       <screen x="1280" y="-571" width="2560" height="1440" />
     </state>
