@@ -1,28 +1,30 @@
 import math
 
+# das ist ein programm um mit den Maßen eines Quadrats die fläche eines kreises zu berechnen der hinein passt
 
-seitenlänge1=0
-seitenlänge2=0
 
-#hauptteil
-seitenlänge1= input("Bitte die eine seitenlänge eigeben")
-seitenlänge1=float(seitenlänge1)
-seitenlänge2= input("Bitte die andere seitenlänge eingeben")
-seitenlänge2=float(seitenlänge2)
-print(seitenlänge1)
-print(seitenlänge2)
-if seitenlänge1 < seitenlänge2:
-    durchmesser=seitenlänge1
+seitenlaenge1 = 0
+seitenlaenge2 = 0
+
+print('Blockcrafter21,email:blockdevelopment@gmx.net, all rights reserved')
+
+# hauptteil
+seitenlaenge1 = input("Bitte die eine Seitenlaenge eingeben")
+seitenlaenge1 = float(seitenlaenge1)
+seitenlaenge2 = input("Bitte die andere Seitenlaenge eingeben")
+seitenlaenge2 = float(seitenlaenge2)
+print(seitenlaenge1)
+print(seitenlaenge2)
+if seitenlaenge1 < seitenlaenge2:
+    durchmesser = seitenlaenge1
     radius = durchmesser / 2
-    flächedeskreises = math.pi * durchmesser
-    print(f"die fläche des kreises ist{flächedeskreises}")
-
-
+    flaechedeskreises = math.pi * durchmesser
+    print(f"die Fläche des Kreises ist{flaechedeskreises}")
 
 else:
-    durchmesser=seitenlänge2
+    durchmesser = seitenlänge2
     radius = durchmesser / 2
-    flächedeskreises = math.pi * radius**2
-    print(f"die fläche des kreises ist{flächedeskreises}")
-print("test")
+    flaechedeskreises = math.pi * radius ** 2
+    print(f"die fläche des kreises ist{flaechedeskreises}")
+
 
