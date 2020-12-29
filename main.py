@@ -1,32 +1,32 @@
 import math
 
-# das ist ein programm um mit den Maßen eines Quadrats die fläche eines kreises zu berechnen der hinein passt
+# this is a program to use the dimensions of a square to calculate the area of ​​a circle that fits inside
 
 
-seitenlaenge1 = 0
-seitenlaenge2 = 0
+sidelength1 = 0
+sidelength2= 0
 
 print('Blockcrafter21,email:blockdevelopment@gmx.net, all rights reserved')
 start = input('Press 5 to start')
 
 if start == 5:
     # hauptteil
-    seitenlaenge1 = input("Bitte die eine Seitenlaenge eingeben")
-    seitenlaenge1 = float(seitenlaenge1)
-    seitenlaenge2 = input("Bitte die andere Seitenlaenge eingeben")
-    seitenlaenge2 = float(seitenlaenge2)
-    print(seitenlaenge1)
-    print(seitenlaenge2)
-    if seitenlaenge1 < seitenlaenge2:
-        durchmesser = seitenlaenge1
-        radius = durchmesser / 2
-        flaechedeskreises = math.pi * durchmesser
-        print(f"die Fläche des Kreises ist{flaechedeskreises}")
+    sidelength1 = input("Bitte die eine Seitenlaenge eingeben")
+    sidelength1 = float(seitenlaenge1)
+    sidelength2 = input("Bitte die andere Seitenlaenge eingeben")
+    sidelength2 = float(seitenlaenge2)
+    print(sidelength1)
+    print(sidelength2)
+    if sidelength1 < sidelength2:
+        diameter = sidelength1
+        radius = diameter / 2
+        circulararea = math.pi * diameter
+        print(f"die Fläche des Kreises ist{circulararea}")
 
     else:
-        durchmesser = seitenlänge2
-        radius = durchmesser / 2
-        flaechedeskreises = math.pi * radius ** 2
-        print(f"die fläche des kreises ist{flaechedeskreises}")
+        diameter = sidelength2
+        radius = diameter / 2
+        circulararea = math.pi * radius ** 2
+        print(f"die fläche des kreises ist{circulararea}")
 else:
     print('hey wait')
