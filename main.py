@@ -22,7 +22,7 @@ if start == 5:
         diameter = sidelength1
         radius = diameter / 2
         circulararea = math.pi * diameter
-        print(f"{circulararea}is the area of the circle")
+        print(f"{circulararea} is the area of the circle")
 
     else:
         diameter = sidelength2
