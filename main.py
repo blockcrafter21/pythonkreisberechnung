@@ -4,7 +4,7 @@ import math
 
 
 sidelength1 = 0
-sidelength2= 0
+sidelength2 = 0
 
 print('Blockcrafter21,email:blockdevelopment@gmx.net, all rights reserved')
 start = input('Press 5 to start')
