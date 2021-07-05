@@ -12,9 +12,9 @@ start = float(start)
 
 if start == 5:
     # hauptteil
-    sidelength1 = input("Please enter the one side length")
+    sidelength1 = input("Please enter the one side length: ")
     sidelength1 = float(sidelength1)
-    sidelength2 = input("Please enter the other side length")
+    sidelength2 = input("Please enter the other side length: ")
     sidelength2 = float(sidelength2)
     print(sidelength1)
     print(sidelength2)
@@ -22,12 +22,15 @@ if start == 5:
         diameter = sidelength1
         radius = diameter / 2
         circulararea = math.pi * diameter ** 2
-        print(f"{circulararea} is the area of the circle")
+        circulararea = float(circulararea)
+        print(f"the circle which fits inside has a area of  {circulararea} cm ")
 
     else:
         diameter = sidelength2
         radius = diameter / 2
         circulararea = math.pi * radius ** 2
-        print(f"{circulararea} is the area of the circle")
+        circulararea = float(circulararea) 
+        circulararea = round(circulararea)
+        print(f"the circle which fits inside has a area of  {circulararea} cm ")
 else:
     print('hey wait wrong number ')
